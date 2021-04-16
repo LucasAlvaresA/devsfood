@@ -1,9 +1,9 @@
 # DevsFood
 > Projeto criado no curso B7Web
 
-![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NPM] (https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![styledcomponents] (https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB),
+![NPM] (https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white),
+![styledcomponents] (https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white),
 ![Redux] (https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
 O template foi criado utilizando a biblioteca React.js,
