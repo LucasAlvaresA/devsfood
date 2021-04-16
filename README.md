@@ -1,7 +1,7 @@
 # DevsFood
 > Projeto criado no curso B7Web
 
-O template foi criado utilizando a biblioteca React.js,
+O template foi criado utilizando a biblioteca React.js
 
 ![](logo.png)
 
