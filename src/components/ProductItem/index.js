@@ -24,7 +24,7 @@ export default ({data, onClick}) => {
             </ProductPhotoArea>
             <ProductInfoArea>
                 <ProductName>{data.name}</ProductName>
-                <ProductPrice>R$ {data.price}</ProductPrice>
+                <ProductPrice>R$ {(data.price).toFixed(2)}</ProductPrice>
                 <ProductIngredients>{data.ingredients}</ProductIngredients>
             </ProductInfoArea>
             <ProductButtonArea>

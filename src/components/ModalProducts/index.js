@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect } from 'react';
 import { 
     Container,
     ProductArea,
@@ -18,6 +18,10 @@ import {
 
 export default ({ data, setStatus }) => {
     const [qt, setQt] = useState(1);
+
+    useEffect(() => {
+        setQt(1);
+    }, [data]);
 
     const handleCancelButton = () => {
         setStatus(false);
@@ -49,7 +53,7 @@ export default ({ data, setStatus }) => {
                                 <ProductQtImage onClick={handlePlusQt} src="/assets/plus.png" />
                             </ProductQuantity>
                             <ProductPrice>
-                                R$ {data.price * qt}
+                                R$ {(data.price * qt).toFixed(2)}
                             </ProductPrice>
                     </ProductQuantityArea>
                 </ProductInfoArea>
