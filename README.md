@@ -1,5 +1,5 @@
 # DevsFood
-> Projeto criado no curso B7Web
+> Project created in the B7Web course
 
 <div>
   <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
@@ -9,15 +9,15 @@
 
 ![](logo.png)
 
-## Instalação
+## Installation
 
-Após clonar o projeto:
+After cloning the project:
 
 ```sh
 npm install 
 ```
 
-Depois execute:
+Then run:
 
 ```sh
 npm start
